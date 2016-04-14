@@ -27,5 +27,3 @@ Admin user : email: "sally@example.com", password: "aaaaaaaa"
              * The studio can to set certain sessions to: needs approval.
 
 
-
-I DID THIS WHOLE TASK IN 6 HRS.
