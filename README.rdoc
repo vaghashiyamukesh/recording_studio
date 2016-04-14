@@ -5,24 +5,27 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version : 2.2.4 ; Rails version : 4.2.5
+* Gems Used:
+Devise : authentication
+cancancan : authorization
+validates_timeliness : to validte date and time
+mysql2 : mysql database
 
-* System dependencies
-
-* Configuration
-
-* Database creation
+* Database creation: mysql.
+please run a seed file before runing the application.
+Admin user : email: "sally@example.com", password: "aaaaaaaa"
 
 * Database initialization
 
-* How to run the test suite
+* features : Recording sessions are 2 hour 45 minutes long, separated by 15 minutes.
+             * Only one user may book a given recording session.
+             * The studio is open for bookings from 9am to 9pm every week day.
+             * Users should  see if a session is already booked.
+             * Users should be able to cancel a booking.
+             * Users can log in and see current and previous bookings.
+             * The studio can to set certain sessions to: needs approval.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+I DID THIS WHOLE TASK IN 6 HRS.
